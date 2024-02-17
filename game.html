@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: brown;
+        height: 90%;
+    }
+    .game{
+        background-color: #ffff;
+        width: 400px;
+        padding: 20px;
+    }
+    .game img{
+        width: 130px;
+    }
+</style>
+<body>
+    <div class="game">
+        <div class="count">
+            <p class="ccount">Computer:0</p>
+            <p class="pcount">Player:0</p>
+        </div>
+        <div class="choice">
+            <img src="Paper.png" onclick="play('rock')">
+            <img src="Sci.png" onclick="play('Sciccor')"> 
+            <img src="Rock.png" onclick="play('Rock')">
+        </div>
+    </div>
+        <div>
+
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
